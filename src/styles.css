@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'SimSun',Georgia,'Lucida Sans', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    flex: 0 0 55px;
+    background-color: #f07777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    height: 30px;
+    width: 90px;
+    background-color: #8B2500;
+    color: #B8860B;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #a31d1d;
+}
+
+h1 {
+    text-align: center;
+    color: #D9381E;
+    font-size: 3rem;
+}
+
+h3{
+    color: #B8860B;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+p {
+    color: #FFD700;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.owner-sign-off {
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+#content {
+    background-image:
+    linear-gradient(rgba(60, 10, 10, 0.45), rgba(255, 0, 0, 0.08)),
+    url("./images-&-icons/restaurant-image.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
+}
+
+.welcoming-text {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.middle-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.front-page-dish {
+  border-radius: 50%;
+  box-shadow: 
+    0 18px 40px rgba(0, 0, 0, 0.45),
+    0 6px 12px rgba(120, 30, 10, 0.25);
+}
