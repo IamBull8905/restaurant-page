@@ -46,16 +46,31 @@ h1 {
     font-size: 3rem;
 }
 
-h3{
+h2, h3,h4 {
     color: #B8860B;
     font-size: 1.5rem;
     text-align: center;
 }
 
-p {
+h2 {
+    font-size: 1.75rem;
+    border-bottom: 1px solid #FFD700;
+    font-style: italic;
+}
+
+h4 {
+    text-align: left;
+}
+
+p, .price {
     color: #FFD700;
     font-size: 1.2rem;
     text-align: center;
+}
+
+.price {
+    text-align: right;
+    flex-wrap: nowrap;
 }
 
 .owner-sign-off {
@@ -100,4 +115,47 @@ p {
     0 6px 12px rgba(120, 30, 10, 0.25);
     width: 350px;
     height: 350px;
+}
+
+.menu-container {
+    display: flex;
+    width: 35%;
+    height: 100%;
+}
+
+.menu-contents {
+    padding: 10px;
+    border: 4px solid #D9381E;
+    background-color: rgba(139, 37, 0, 0.3);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    flex: 1;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+}
+
+.dish-text {
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+.dish-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.starters, 
+.main-courses, 
+.desserts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
