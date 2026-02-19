@@ -159,3 +159,29 @@ p, .price {
     flex-direction: column;
     gap: 20px;
 }
+
+.contact-us,
+.place-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.place-container {
+    position: relative;
+    top: 45px;
+}
+.staff-heading {
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.place-container p {
+    text-align: center;
+}

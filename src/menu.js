@@ -23,8 +23,8 @@ const loadPage = function() {
             price: 35
         },
         {
-            name: "Chángfěn",
-            description: "A small roll prepared with a wide strip of rice milk that is usually filled with vegetables, beef, pork, or shrimp.",
+            name: "Sesame chicken",
+            description: "Our signature dish originating from the heart of Shanghai. A fan favourite consisting of deep fried chicken topped with fine sesame seeds.",
             price: 40
         },
     ];
